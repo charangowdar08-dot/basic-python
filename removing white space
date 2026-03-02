@@ -1,0 +1,11 @@
+s = input("enter the string:")
+i=0
+ns = ""
+while i<len(s):
+    data = s[i]
+    if data == " " :
+        i=i+1
+    else:
+        ns=ns+data
+        i = i+1
+print(ns)
